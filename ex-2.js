@@ -8,3 +8,11 @@ const product = {
 };
 let socialMediaShare = "facebookShare";
 // Start code here
+
+product.ratings = "IT0101010";
+product.price = 6000;
+
+delete product.ratings;
+
+product[socialMediaShare] = 45.5;
+console.log(product);
